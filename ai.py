@@ -347,11 +347,22 @@ async def root():
                 .reset-btn:hover {
                     background-color: #c82333;
                 }
+                .site-title {
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+                .site-subtitle {
+                    text-align: center;
+                    font-style: italic;
+                    color: #666;
+                    margin-bottom: 30px;
+                }
             </style>
         </head>
         <body>
             <div class="container">
-                <h1>🤖 AI Models Koleksiyonu</h1>
+                <h1 class="site-title">🤖 Ar-Ge AI Models Koleksiyonu</h1>
+                <p class="site-subtitle">Hayal et ve hayata geçir</p>
                 
                 <div class="admin-controls">
                     <button onclick="toggleAdminMode()" id="adminModeBtn">Admin Modu</button>
