@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "ChatGPT",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ChatGPT-Logo.svg/130px-ChatGPT-Logo.svg.png",
+        "link_url": "https://chatgpt.com/",
+        "description": "ChatGPT, OpenAI tarafından geliştirilen ve diyalog konusunda uzmanlaşmış bir yapay zeka sohbet botudur.",
+        "category": "Genel Kullanım",
+        "rating": 4.5,
+        "vote_count": 2
+    },
+    {
+        "id": 2,
+        "name": "Claude",
+        "image_url": "https://cdn.prod.website-files.com/667bba09c1fd0c0d87a8fe89/669b4b707124073bea61bbe4_Claude.svg",
+        "link_url": "https://claude.ai",
+        "description": "Claude AI, Anthropic tarafından geliştirilen bir üretken yapay zeka sohbet robotu ve büyük dil modelleri ailesidir.",
+        "category": "Genel Kullanım",
+        "rating": 4.7,
+        "vote_count": 3
+    },
+    {
+        "id": 3,
+        "name": "DeepSeek",
+        "image_url": "https://i.bstr.es/drivingeco/2025/01/Deepseek-r1-logo.webp",
+        "link_url": "https://www.deepseek.com/",
+        "description": "DeepSeek AI, Çin merkezli bir yapay zeka araştırma laboratuvarıdır ve özellikle yapay zeka tabanlı dil modelleri geliştirme alanında uzmanlaşmıştır.",
+        "category": "Genel Kullanım",
+        "rating": 5.0,
+        "vote_count": 2
+    },
+    {
+        "id": 4,
+        "name": "Kimi AI",
+        "image_url": "https://getcn.app/wp-content/uploads/2024/04/kimi-chat-app-icon.webp",
+        "link_url": "https://kimi.moonshot.cn/",
+        "description": "Kimi Chat, Beijing Moonshot Technology Co. Ltd tarafından geliştirilen tüm ihtiyaçlarınıza cevap veren ücretsiz bir AI sohbet botu ve araçtır.",
+        "category": "Görsel",
+        "rating": 0.0,
+        "vote_count": 0
+    },
+    {
+        "id": 5,
+        "name": "İdeogram Aİ",
+        "image_url": "https://www.webtures.com/wp-content/uploads/2024/12/Ideogram.png",
+        "link_url": "https://ideogram.ai/login",
+        "description": "İdeogram, gerçekçi görseller, posterler, logolar ve daha fazlasını üreten ücretsiz bir yapay zeka aracıdır .",
+        "category": "Görsel",
+        "rating": 4.0,
+        "vote_count": 1
+    },
+    {
+        "id": 6,
+        "name": "Microsoft Copilot  (AI Görüntü Oluşturucu)",
+        "image_url": "https://images.indianexpress.com/2024/02/Microsoft-copilot.jpg",
+        "link_url": "https://copilot.microsoft.com/images/create?FORM=GENEXP",
+        "description": "Ücretsiz, yapay zeka destekli metinden görüntüye dönüştürücü, kelimelerinizi saniyeler içinde çarpıcı görsellere dönüştürür. Hızlı ve kolay görüntü oluşturma için mükemmeldir.",
+        "category": "Görsel",
+        "rating": 0.0,
+        "vote_count": 0
+    },
+    {
+        "id": 7,
+        "name": "GitHub Copilot",
+        "image_url": "https://cdn.prod.website-files.com/6344c9cef89d6f2270a38908/644158d0438c1513788efeb4_1366_2000.jpeg",
+        "link_url": "https://github.com/features/copilot",
+        "description": "GitHub Copilot, kullanıcıların kod yazma sürecinde yardımcı olan bulut tabanlı bir yapay zeka aracıdır. GitHub ve OpenAI tarafından geliştirilen araç, Visual Studio Code, Visual Studio, Neovim ve diğer entegre geliştirme ortamlarının (IDE'ler) kullanıcılarına destek vermek için tasarlanmıştır.",
+        "category": "Kod",
+        "rating": 0.0,
+        "vote_count": 0
+    },
+    {
+        "id": 8,
+        "name": "KLING AI",
+        "image_url": "https://aitrends.com.tr/wp-content/uploads/2024/07/Kling-ai.webp",
+        "link_url": "https://klingai.com/",
+        "description": "KLING AI , son teknoloji jeneratif AI yöntemlerine dayalı, yaratıcı görseller ve videolar oluşturmaya yarayan araçlardır.",
+        "category": "Görsel",
+        "rating": 0.0,
+        "vote_count": 0
+    },
+    {
+        "id": 9,
+        "name": "Image Creator in Bing",
+        "image_url": "https://www.digitalmarketingcommunity.com/wp-content/uploads/2023/12/Featured-image-550-X-340-8-2.jpg",
+        "link_url": "https://www.bing.com/images/create",
+        "description": "Ücretsiz, yapay zeka destekli metinden görüntüye oluşturucu, kelimelerinizi saniyeler içinde çarpıcı görsellere dönüştürür. Hızlı ve kolay görüntü oluşturma için mükemmeldir.",
+        "category": "Görsel",
+        "rating": 4.0,
+        "vote_count": 1
+    }
+]

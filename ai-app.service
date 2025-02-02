@@ -1,0 +1,14 @@
+[Unit]
+Description=AI Library FastAPI Application
+After=network.target
+
+[Service]
+User=www-data
+WorkingDirectory=/path/to/your/app
+Environment="PATH=/path/to/your/venv/bin"
+Environment="ADMIN_PASSWORD=your_secure_password"
+Environment="ALLOWED_ORIGINS=https://your-domain.com"
+ExecStart=/path/to/your/venv/bin/uvicorn ai:app --host 127.0.0.1 --port 8000
+
+[Install]
+WantedBy=multi-user.target 
