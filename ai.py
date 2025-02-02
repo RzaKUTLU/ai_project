@@ -125,6 +125,26 @@ ai_models = [AIModel(**model) for model in [
         "category": "Görsel",
         "rating": 4.0,
         "vote_count": 1
+    },
+    {
+        "id": 10,
+        "name": "Semantic Scholar",
+        "image_url": "https://cdn.icon-icons.com/icons2/2699/PNG/512/semanticscholar_logo_icon_168746.png",
+        "link_url": "https://www.semanticscholar.org/",
+        "description": "Semantic Scholar, yapay zeka destekli akademik arama motoru, bilimsel makaleleri analiz eder ve araştırmacılara önemli içgörüler sunar. Allen AI Institute tarafından geliştirilmiştir.",
+        "category": "Akademik",
+        "rating": 0.0,
+        "vote_count": 0
+    },
+    {
+        "id": 11,
+        "name": "Elicit AI",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyHrX6eLQJ6_AHCmYUX9p2Qw7FmHWHJZx0Gg&usqp=CAU",
+        "link_url": "https://elicit.org/",
+        "description": "Elicit, araştırma sürecinizi hızlandırmak için yapay zeka kullanır. Akademik makaleleri analiz eder, özetler çıkarır ve araştırma sorularınızı yanıtlar.",
+        "category": "Akademik",
+        "rating": 0.0,
+        "vote_count": 0
     }
 ]]
 
