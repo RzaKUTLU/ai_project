@@ -129,7 +129,7 @@ ai_models = [AIModel(**model) for model in [
     {
         "id": 10,
         "name": "Semantic Scholar",
-        "image_url": "https://cdn.icon-icons.com/icons2/2699/PNG/512/semanticscholar_logo_icon_168746.png",
+        "image_url": "https://www.digitalmarketingcommunity.com/wp-content/uploads/2023/12/Featured-image-550-X-340-8-2.jpg",
         "link_url": "https://www.semanticscholar.org/",
         "description": "Semantic Scholar, yapay zeka destekli akademik arama motoru, bilimsel makaleleri analiz eder ve araştırmacılara önemli içgörüler sunar. Allen AI Institute tarafından geliştirilmiştir.",
         "category": "Akademik",
