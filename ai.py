@@ -353,13 +353,16 @@ async def root():
             <div class="container">
                 <h1>🤖 AI Models Koleksiyonu</h1>
                 
-                <div style="text-align: right; margin-bottom: 20px;">
-                    <button onclick="toggleAdminMode()" class="category-btn">Admin Modu</button>
-                    <button onclick="resetRatings()" class="category-btn reset-btn" style="display: none;">Puanları Sıfırla</button>
+                <div class="admin-controls">
+                    <button onclick="toggleAdminMode()" id="adminModeBtn">Admin Modu</button>
+                    <a href="/add" class="add-btn" style="display: none;" id="addModelBtn">+ Yeni Model Ekle</a>
+                    <button onclick="resetAllRatings()" style="display: none;" id="resetRatingsBtn">Puanları Sıfırla</button>
                 </div>
 
-                <input type="text" class="search-box" placeholder="AI modelleri arasında arama yapın...">
-                
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Model ara..." oninput="filterModels()">
+                </div>
+
                 <div class="category-filter">
                     <button class="category-btn active" onclick="filterByCategory('all')">Tümü</button>
                     <button class="category-btn" onclick="filterByCategory('Kod')">Kod</button>
@@ -368,12 +371,10 @@ async def root():
                     <button class="category-btn" onclick="filterByCategory('Akademik')">Akademik</button>
                 </div>
 
-                <div class="models-grid" id="models-grid">
-                    <!-- JavaScript ile doldurulacak -->
+                <div class="models-grid" id="modelsGrid">
+                    <!-- Modeller JavaScript ile buraya yüklenecek -->
                 </div>
             </div>
-
-            <a href="/add" class="add-button">+ Yeni Model Ekle</a>
 
             <script>
                 let isAdminMode = false;
@@ -488,7 +489,7 @@ async def root():
                     // Modelleri puana göre sırala
                     models.sort((a, b) => b.rating - a.rating);
                     
-                    const grid = document.getElementById('models-grid');
+                    const grid = document.getElementById('modelsGrid');
                     grid.innerHTML = '';
                     
                     models.forEach((model, index) => {
