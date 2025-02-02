@@ -190,7 +190,7 @@ async def root():
     <!DOCTYPE html>
     <html>
         <head>
-            <title>Ar-Ge Yapay Zeka Kütüphanesi</title>
+            <title>Ar-Ge AI Models Koleksiyonu v2</title>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
             <style>
                 body {
@@ -361,8 +361,8 @@ async def root():
         </head>
         <body>
             <div class="container">
-                <h1 class="site-title">🤖 Ar-Ge AI Models Koleksiyonu</h1>
-                <p class="site-subtitle">Hayal et ve hayata geçir</p>
+                <h1 class="site-title">🤖 Ar-Ge AI Models Koleksiyonu v2</h1>
+                <p class="site-subtitle">Hayal et, tasarla ve hayata geçir</p>
                 
                 <div class="admin-controls">
                     <button onclick="toggleAdminMode()" id="adminModeBtn">Admin Modu</button>
