@@ -21,6 +21,7 @@ class Category(str, Enum):
     CODE = "Kod"
     GENERAL = "Genel Kullanım"
     VISUAL = "Görsel"
+    ACADEMIC = "Akademik"  # Yeni kategori eklendi
 
 # AI Model şeması
 class AIModel(BaseModel):
@@ -344,6 +345,7 @@ async def root():
                     <button class="category-btn" onclick="filterByCategory('Kod')">Kod</button>
                     <button class="category-btn" onclick="filterByCategory('Genel Kullanım')">Genel Kullanım</button>
                     <button class="category-btn" onclick="filterByCategory('Görsel')">Görsel</button>
+                    <button class="category-btn" onclick="filterByCategory('Akademik')">Akademik</button>
                 </div>
 
                 <div class="models-grid" id="models-grid">
@@ -713,6 +715,7 @@ async def add_form():
                             <option value="Kod">Kod</option>
                             <option value="Genel Kullanım">Genel Kullanım</option>
                             <option value="Görsel">Görsel</option>
+                            <option value="Akademik">Akademik</option>
                         </select>
                     </div>
                     
@@ -866,6 +869,7 @@ async def edit_form(model_id: int):
                                 <option value="Kod" {"selected" if model.category == "Kod" else ""}>Kod</option>
                                 <option value="Genel Kullanım" {"selected" if model.category == "Genel Kullanım" else ""}>Genel Kullanım</option>
                                 <option value="Görsel" {"selected" if model.category == "Görsel" else ""}>Görsel</option>
+                                <option value="Akademik" {"selected" if model.category == "Akademik" else ""}>Akademik</option>
                             </select>
                         </div>
                         
