@@ -274,15 +274,17 @@ async def root():
                     position: fixed;
                     bottom: 20px;
                     right: 20px;
-                    background-color: #28a745;
+                    background-color: #2ecc71;
                     color: white;
                     padding: 15px 25px;
                     border-radius: 30px;
                     text-decoration: none;
                     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                    font-weight: bold;
+                    z-index: 1000;
                 }
                 .add-button:hover {
-                    background-color: #218838;
+                    background-color: #27ae60;
                 }
                 .admin-actions {
                     display: none;
@@ -365,9 +367,8 @@ async def root():
                 <p class="site-subtitle">Hayal et, tasarla ve hayata geçir</p>
                 
                 <div class="admin-controls">
-                    <button onclick="toggleAdminMode()" id="adminModeBtn">Admin Modu</button>
-                    <a href="/add" class="add-btn" style="display: none;" id="addModelBtn">+ Yeni Model Ekle</a>
-                    <button onclick="resetAllRatings()" style="display: none;" id="resetRatingsBtn">Puanları Sıfırla</button>
+                    <button onclick="toggleAdminMode()" class="category-btn">Admin Modu</button>
+                    <button onclick="resetRatings()" class="category-btn reset-btn" style="display: none;">Puanları Sıfırla</button>
                 </div>
 
                 <div class="search-box">
@@ -386,6 +387,8 @@ async def root():
                     <!-- Modeller JavaScript ile buraya yüklenecek -->
                 </div>
             </div>
+
+            <a href="/add" class="add-button">+ Yeni Model Ekle</a>
 
             <script>
                 let isAdminMode = false;
