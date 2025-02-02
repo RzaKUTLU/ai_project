@@ -998,3 +998,16 @@ async def http_exception_handler(request, exc):
 @app.on_event("startup")
 async def startup_event():
     pass  # Artık dosyadan yükleme yapmayacağız
+
+# Modelleri kaydetme
+def save_models():
+    with open('models.json', 'w') as f:
+        json.dump([model.dict() for model in ai_models], f)
+
+# Modelleri yükleme
+def load_models():
+    try:
+        with open('models.json', 'r') as f:
+            return [AIModel(**m) for m in json.load(f)]
+    except:
+        return default_models
