@@ -129,7 +129,7 @@ ai_models = [AIModel(**model) for model in [
     {
         "id": 10,
         "name": "Semantic Scholar",
-        "image_url": "https://www.digitalmarketingcommunity.com/wp-content/uploads/2023/12/Featured-image-550-X-340-8-2.jpg",
+        "image_url": "https://www.semanticscholar.org/img/semantic_scholar_og.png",
         "link_url": "https://www.semanticscholar.org/",
         "description": "Semantic Scholar, yapay zeka destekli akademik arama motoru, bilimsel makaleleri analiz eder ve araştırmacılara önemli içgörüler sunar. Allen AI Institute tarafından geliştirilmiştir.",
         "category": "Akademik",
@@ -139,7 +139,7 @@ ai_models = [AIModel(**model) for model in [
     {
         "id": 11,
         "name": "Elicit AI",
-        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyHrX6eLQJ6_AHCmYUX9p2Qw7FmHWHJZx0Gg&usqp=CAU",
+        "image_url": "https://cdn.prod.website-files.com/6516f50e7a19045d3d7b12f2/6516f90b0fdb35054731f016_svgexport-1%20(18).svg",
         "link_url": "https://elicit.org/",
         "description": "Elicit, araştırma sürecinizi hızlandırmak için yapay zeka kullanır. Akademik makaleleri analiz eder, özetler çıkarır ve araştırma sorularınızı yanıtlar.",
         "category": "Akademik",
@@ -157,7 +157,7 @@ ai_models = [AIModel(**model) for model in [
         "vote_count": 0
     },
     {
-        "id": 11,
+        "id": 12,
         "name": "Napkin Ai",
         "image_url": "https://cdn.prod.website-files.com/64c7a317aea92912392c0420/66ad23f2e51d8edcbbea8f20_Napkin_primary_logo_with_text_color_light.png",
         "link_url": "https://www.napkin.ai/",
@@ -167,7 +167,7 @@ ai_models = [AIModel(**model) for model in [
         "vote_count": 0
     },
     {
-        "id": 11,
+        "id": 13,
         "name": "Goblin",
         "image_url": "https://play-lh.googleusercontent.com/9o1fj6fT9Jukp0geq2Zb7ojDguRiGT16AZ9W7m0VH8twDVr-CjITlCgHNpZ70Phv37Q",
         "link_url": "https://goblin.tools/",
@@ -177,7 +177,7 @@ ai_models = [AIModel(**model) for model in [
         "vote_count": 0
     },
     {
-        "id": 11,
+        "id": 14,
         "name": "Gamma",
         "image_url": "https://cdn.mos.cms.futurecdn.net/cfo9wrPuw9H2NXugivFUJh.jpg",
         "link_url": "https://gamma.app/",
@@ -187,7 +187,7 @@ ai_models = [AIModel(**model) for model in [
         "vote_count": 0
     },
     {
-        "id": 11,
+        "id": 15,
         "name": "SciSpace",
         "image_url": "https://library.smu.edu.sg/sites/library.smu.edu.sg/files/news/Banner_Scispace_Web.png",
         "link_url": "https://typeset.io/",
@@ -197,7 +197,7 @@ ai_models = [AIModel(**model) for model in [
         "vote_count": 0
     },
     {
-        "id": 11,
+        "id": 16,
         "name": "Grok 2.0",
         "image_url": "https://s2.coinmarketcap.com/static/img/coins/200x200/28457.png",
         "link_url": "https://x.ai/",
@@ -207,12 +207,22 @@ ai_models = [AIModel(**model) for model in [
         "vote_count": 0
     },
     {
-        "id": 11,
+        "id": 17,
         "name": "Gemini",
         "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_SS.width-1300.jpg",
         "link_url": "https://x.ai/",
         "description": "Gemini ya da eski adıyla Bard, Google AI tarafından geliştirilen ve 21 Mart 2023'te yayınlanan bir sohbet robotudur. Google'ın LaMDA dil ailesini kullanan Gemini; şu anda 200'den fazla ülkede yayın yapmakta, 40'tan fazla dilde kullanılabilmektedir.",
         "category": "Genel Kullanım",
+        "rating": 0.0,
+        "vote_count": 0
+    },
+    {
+        "id": 18,
+        "name": "Consensus",
+        "image_url": "https://cdn.mos.cms.futurecdn.net/vxysoVJ4JSFcEbyY7CQwri-1200-80.jpg",
+        "link_url": "https://consensus.app/search/",
+        "description": "Consensus, yapay zeka destekli, bilime dayalı yeni bir akademik arama motoru türüdür. Anında içgörüler ve konu hakkında bilgi edinirken en iyi makaleleri bulun...",
+        "category": "Akademik",
         "rating": 0.0,
         "vote_count": 0
     }
