@@ -145,6 +145,76 @@ ai_models = [AIModel(**model) for model in [
         "category": "Akademik",
         "rating": 0.0,
         "vote_count": 0
+    },
+    {
+        "id": 11,
+        "name": "Lovable",
+        "image_url": "https://promptzone-community.s3.amazonaws.com/uploads/articles/4pgriwt21pz5vti3sedb.png",
+        "link_url": "https://lovable.dev/",
+        "description": "İnsanüstü bir tam yığın ürün mühendisi. Anında ve sezgisel. Canlı işleme, görüntü girişini yönetir, anında geri alma özelliğine sahiptir ve dallanma ile işbirliği yapmanıza olanak tanır.",
+        "category": "Kod",
+        "rating": 0.0,
+        "vote_count": 0
+    },
+    {
+        "id": 11,
+        "name": "Napkin Ai",
+        "image_url": "https://cdn.prod.website-files.com/64c7a317aea92912392c0420/66ad23f2e51d8edcbbea8f20_Napkin_primary_logo_with_text_color_light.png",
+        "link_url": "https://www.napkin.ai/",
+        "description": "Metninizi yazın, kopyalayıp yapıştırın veya oluşturun ve Napkin onu anında içgörülü görsellere dönüştürecektir. İletişiminizi ... ile daha etkili hale getirin.",
+        "category": "Görsel",
+        "rating": 0.0,
+        "vote_count": 0
+    },
+    {
+        "id": 11,
+        "name": "Goblin",
+        "image_url": "https://play-lh.googleusercontent.com/9o1fj6fT9Jukp0geq2Zb7ojDguRiGT16AZ9W7m0VH8twDVr-CjITlCgHNpZ70Phv37Q",
+        "link_url": "https://goblin.tools/",
+        "description": "küçük, basit, tek görevli araçlardan oluşan bir koleksiyondur ve çoğunlukla nörodivergent insanlara bunaltıcı veya zor buldukları görevlerde yardımcı olmak için tasarlanmıştır.",
+        "category": "Genel Kullanım",
+        "rating": 0.0,
+        "vote_count": 0
+    },
+    {
+        "id": 11,
+        "name": "Gamma",
+        "image_url": "https://cdn.mos.cms.futurecdn.net/cfo9wrPuw9H2NXugivFUJh.jpg",
+        "link_url": "https://gamma.app/",
+        "description": "Saniyeler içinde sınırsız sunum, web sitesi ve daha fazlasını oluşturun. Gelişmiş yapay zeka ile hızlı bir şekilde içerik oluşturmak ve iyileştirmek için ...",
+        "category": "Görsel",
+        "rating": 0.0,
+        "vote_count": 0
+    },
+    {
+        "id": 11,
+        "name": "SciSpace",
+        "image_url": "https://library.smu.edu.sg/sites/library.smu.edu.sg/files/news/Banner_Scispace_Web.png",
+        "link_url": "https://typeset.io/",
+        "description": "PDF ile sohbet edin ve SciSpace'i kullanarak literatür incelemenizi daha hızlı gerçekleştirin . 200 milyondan fazla makaleyi keşfedin veya kendi PDF'nizi yükleyin, metni vurgulayın veya sorular sorun, ...",
+        "category": "Akademik",
+        "rating": 0.0,
+        "vote_count": 0
+    },
+    {
+        "id": 11,
+        "name": "Grok 2.0",
+        "image_url": "https://s2.coinmarketcap.com/static/img/coins/200x200/28457.png",
+        "link_url": "https://x.ai/",
+        "description": "Gündemde yer alan güncel bilgiler. Verileri X den alır. Grok artık daha hızlı, daha keskin ve çok dilli desteği iyileştirildi. X platformundaki herkes tarafından kullanılabilir.",
+        "category": "Görsel",
+        "rating": 0.0,
+        "vote_count": 0
+    },
+    {
+        "id": 11,
+        "name": "Gemini",
+        "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_SS.width-1300.jpg",
+        "link_url": "https://x.ai/",
+        "description": "Gemini ya da eski adıyla Bard, Google AI tarafından geliştirilen ve 21 Mart 2023'te yayınlanan bir sohbet robotudur. Google'ın LaMDA dil ailesini kullanan Gemini; şu anda 200'den fazla ülkede yayın yapmakta, 40'tan fazla dilde kullanılabilmektedir.",
+        "category": "Genel Kullanım",
+        "rating": 0.0,
+        "vote_count": 0
     }
 ]]
 
