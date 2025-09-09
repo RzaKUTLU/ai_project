@@ -8,7 +8,7 @@
 
 ## 🚀 Canlı Demo
 
-**[�� Uygulamayı Görüntüle](https://aiproject-rzakutlus-projects.vercel.app)**
+**[ Uygulamayı Görüntüle](https://aiproject-rzakutlus-projects.vercel.app)**
 
 ## ✨ Özellikler
 
