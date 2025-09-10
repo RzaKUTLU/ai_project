@@ -86,3 +86,6 @@ uvicorn ai:app --reload
 ```
 
 ### **Adım 6: Tarayıcıda Açın**
+```
+https://aiproject-rzakutlus-projects.vercel.app
+```
